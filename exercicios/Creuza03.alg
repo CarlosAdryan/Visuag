@@ -1,10 +1,15 @@
-algoritmo "Creuza03"
+algoritmo "CalculoIdade"
 
 var
-   C, F: real
+   ano, nasc, idade: inteiro
 inicio
-      Escreva("Qual é temperatura aqui? ")
-      Leia(F)
-      C <- (F - 32)/1.8)
-      Escreva("No Brasil estaria", C:4:1)
+      Escreva("Em que ano nos estamos? ")
+      Leia(ano)
+      Escreva("Em que ano voce nasceu? ")
+      Leia(nasc)
+      idade <- ano - nasc
+      Escreva("Em", ano," voce tera ", idade, " anos")
+      Se (idade >= 21) entao
+         Escreval (" e ja tera atingido a maioridade. ")
+      FimSe
 fimalgoritmo
