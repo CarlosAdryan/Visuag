@@ -1,20 +1,18 @@
-Algoritmo "idades"
+Algoritmo "retangulo"
 Var
-    nome1, nome2: caractere
-    idade1, idade2: inteiro
-    media: real
+    base, altura, area, perimetro, diagonal: real
 Inicio
-      escreval("Dados da primeira pessoa: ")
-      escreva("Nome: ")
-      leia(nome1)
-      escreva("idade: ")
-      leia(idade1)
-      escreval("Dados da segunda pessoa: ")
-      escreva("Nome: ")
-      leia(nome2)
-      escreva("idade: ")
-      leia(idade2)
-      media <- (idade1 + idade2)/2
-      escreval("A idade media de ", nome1, " e ", nome2, " é de ", media, " anos")
+      escreva("Base do retangulo: ")
+      leia(base)
+      escreva("Altura do retangulo: ")
+      leia(altura)
       
+      area <- base * altura
+      perimetro <- 2 * (base + altura)
+      diagonal <- RaizQ(exp(base, 2) + exp(altura, 2))
+      
+      escreval("AREA = ", area:8:4)
+      escreval("PERIMETRO = ", perimetro:8:4)
+      escreval("DIAGONAL = ", diagonal:8:4)
+
 Fimalgoritmo

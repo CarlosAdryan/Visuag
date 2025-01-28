@@ -1,11 +1,20 @@
-Algoritmo "soma"
+Algoritmo "idades"
 Var
-   x, y, soma: inteiro
+    nome1, nome2: caractere
+    idade1, idade2: inteiro
+    media: real
 Inicio
-      escreva("Digite o valor de X: ")
-      leia(x)
-      escreva("Digite o valor de Y: ")
-      leia(y)
-      soma <- x + y
-      escreva("SOMA =", soma)
+      escreval("Dados da primeira pessoa: ")
+      escreva("Nome: ")
+      leia(nome1)
+      escreva("idade: ")
+      leia(idade1)
+      escreval("Dados da segunda pessoa: ")
+      escreva("Nome: ")
+      leia(nome2)
+      escreva("idade: ")
+      leia(idade2)
+      media <- (idade1 + idade2)/2
+      escreval("A idade media de ", nome1, " e ", nome2, " eh de ", media, " anos")
+
 Fimalgoritmo
