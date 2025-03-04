@@ -27,14 +27,10 @@ Inicio
            fimse
       fimpara
       
-      Escreval("MAIOR VALOR = ", maior)
-      Escreva("POSICAO DO MAIOR VALOR = ", cont)
+      Escreval("MAIOR VALOR = ", maior:4:2)
+      Escreval("POSICAO DO MAIOR VALOR = ", cont)
       
 
-
-      
-      
-      
 
 
 Fimalgoritmo
