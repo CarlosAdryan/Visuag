@@ -55,7 +55,7 @@ Inicio
       Escreval("Lucro acima de 20%: ", above)
       Escreval("Valor total de compra: ", purchacetotal:4:2)
       Escreval("Valor total de venda: ", saletotal:4:2)
-      Escreval("Lucro total: ", totalprofit:3:2)
+      Escreval("Lucro total: ", abs(totalprofit):3:2)
 
 
 Fimalgoritmo
